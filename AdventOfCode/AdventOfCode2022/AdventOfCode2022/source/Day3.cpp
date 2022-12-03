@@ -6,6 +6,7 @@
 #include <vector>
 #include <string>
 #include <map>
+#include "Timer.h"
 
 //Functions.
 Day3::Day3() {
@@ -16,6 +17,8 @@ void Day3::Run() {
 	//Start code.
 	std::cout << "-------------------" << std::endl;
 	std::cout << "Day3 code running: " << std::endl;
+	Timer timer;
+
 	//Get a list of all the backpacks.
 	const std::array<std::string, 300> input = {
 		"lflZfgnSnlmmlgGfjGthQPtLNsQhvbHLLpSS",
