@@ -3,5 +3,5 @@ D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v17
   Day3.cpp
   main.cpp
   Generating Code...
-D:\Github\Side Projects\AdventOfCode\AdventOfCode2022\AdventOfCode2022\source\Day3.cpp(411): warning C4715: 'Day3::FindCommonCharacter': not all control paths return a value
-  AdventOfCode2022.vcxproj -> D:\Github\Side Projects\AdventOfCode\AdventOfCode2022\bin\x64\Debug\AdventOfCode2022.exe
+D:\Github\Side Projects\AdventOfCode2022\AdventOfCode\AdventOfCode2022\AdventOfCode2022\source\Day3.cpp(410): warning C4715: 'Day3::FindCommonCharacter': not all control paths return a value
+  AdventOfCode2022.vcxproj -> D:\Github\Side Projects\AdventOfCode2022\AdventOfCode\AdventOfCode2022\bin\x64\Debug\AdventOfCode2022.exe

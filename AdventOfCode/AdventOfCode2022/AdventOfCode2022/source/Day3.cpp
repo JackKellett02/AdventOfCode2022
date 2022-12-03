@@ -9,14 +9,13 @@
 
 //Functions.
 Day3::Day3() {
-
+	Run();
 }
 
 void Day3::Run() {
 	//Start code.
-	std::cout << "Day3 code running: " << std::endl;
 	std::cout << "-------------------" << std::endl;
-
+	std::cout << "Day3 code running: " << std::endl;
 	//Get a list of all the backpacks.
 	const std::array<std::string, 300> input = {
 		"lflZfgnSnlmmlgGfjGthQPtLNsQhvbHLLpSS",
@@ -363,7 +362,7 @@ void Day3::Run() {
 	for (int i = 0; i < missplacedItems.size(); i++) {
 		prioritySum += ConvertCharToPriority(missplacedItems[i]);
 	}
-	std::cout << "Priority Sum Value: " << prioritySum <<  "\n-------------------" << std::endl;
+	std::cout << "Priority Sum Value: " << prioritySum << std::endl;
 
 	//PART 2 CODE.
 	int badgeSums = 0;

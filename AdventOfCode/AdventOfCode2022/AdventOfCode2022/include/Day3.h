@@ -9,7 +9,6 @@ public:
 	Day3();
 
 	//Functions.
-	void Run();
 
 	//Public Variables.
 
@@ -18,6 +17,7 @@ private:
 	
 
 	//Private Functions.
+	void Run();
 	int ConvertCharToPriority(const char& a_char);
 	char FindCommonCharacter(const std::string& a_string1, const std::string& a_string2, const std::string& a_string3);
 };
