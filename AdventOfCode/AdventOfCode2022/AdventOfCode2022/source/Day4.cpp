@@ -131,5 +131,5 @@ bool Day4::OnePairOverlaps(const ElfData& a_elf1, const ElfData& a_elf2) {
 		}
 	}
 
-	return false;;
+	return false;
 }
