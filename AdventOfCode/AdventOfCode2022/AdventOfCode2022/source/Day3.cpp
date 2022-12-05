@@ -377,7 +377,7 @@ void Day3::Run() {
 	}
 
 	//Print the badge sums.
-	std::cout << "Badge Sum Value: " << badgeSums << "\n-------------------" << std::endl;
+	std::cout << "Badge Sum Value: " << badgeSums << std::endl;
 }
 
 int Day3::ConvertCharToPriority(const char& a_char) {
