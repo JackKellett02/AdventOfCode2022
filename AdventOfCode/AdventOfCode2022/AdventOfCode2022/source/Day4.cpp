@@ -121,25 +121,15 @@ bool Day4::OnePairFullyContainsOther(const  ElfData& a_bigger, const  ElfData& a
 }
 
 bool Day4::OnePairOverlaps(const ElfData& a_elf1, const ElfData& a_elf2) {
-	//If elf1's min is more than elf 2's min and less than elf 2's max then they overlap.
-	if (a_elf1.min >= a_elf1.min && a_elf1.min <= a_elf2.max) {
-		return true;
+	const ElfData& elf1 = a_elf1;
+	const ElfData& elf2 = a_elf2;
+	for (int i = elf1.min; i <= elf1.max; i++) {
+		for (int j = elf2.min; j <= elf2.max; j++) {
+			if (i == j) {
+				return true;
+			}
+		}
 	}
 
-	//If elf1's max is less than elf 2's max and more than elf2's min then they overlap.
-	if (a_elf1.max <= a_elf2.max && a_elf1.max >= a_elf2.min) {
-		return true;
-	}
-
-	//If elf2's min is more than elf 1's min and less than elf 1's max then they overlap.
-	if (a_elf2.min >= a_elf1.min && a_elf2.min <= a_elf1.max) {
-		return true;
-	}
-
-	//if elf2's max is less than elf 1's max and more than elf1's min then they overlap.
-	if (a_elf2.max <= a_elf1.max && a_elf2.max >= a_elf1.min) {
-		return true;
-	}
-
-	return false;
+	return false;;
 }

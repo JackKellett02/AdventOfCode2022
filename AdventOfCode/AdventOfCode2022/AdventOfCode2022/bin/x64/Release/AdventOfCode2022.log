@@ -4,8 +4,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v17
   Day4.cpp
   main.cpp
   Generating code
-  Previous IPDB was built with incompatible compiler, fall back to full compilation.
 D:\Github\AdventOfCode2022\AdventOfCode\AdventOfCode2022\AdventOfCode2022\source\Day3.cpp(413): warning C4715: 'Day3::FindCommonCharacter': not all control paths return a value
-  All 301 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  114 of 301 functions (37.9%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    22 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   AdventOfCode2022.vcxproj -> D:\Github\AdventOfCode2022\AdventOfCode\AdventOfCode2022\bin\x64\Release\AdventOfCode2022.exe
